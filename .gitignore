@@ -1,0 +1,42 @@
+# 虚拟环境
+.venv/
+venv/
+env/
+.env/
+
+# Python 临时文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+
+# 动态 / 编译文件
+*.pyd
+*.dll
+*.manifest
+*.whl
+
+# 分发 / 打包
+build/
+dist/
+*.tar.gz
+*.zip
+
+# 单元测试 / 覆盖率
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 其他
+*.log
+*.bak
+*.swp
+*~
