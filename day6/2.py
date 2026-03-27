@@ -1,0 +1,6 @@
+port_list = ['eth 1/101/1/42','eth 1/101/1/26','eth 1/101/1/23','eth 1/101/1/7','eth 1/101/2/46','eth 1/101/1/34','eth 1/101/1/18','eth 1/101/1/13','eth 1/101/1/32','eth 1/101/1/25','eth 1/101/1/45','eth 1/101/2/8']
+port_list.sort()
+# print(port_list)
+# print(port_list[0].split()[1].split('/'))
+port_list.sort(key=lambda x: [int(i) for i in x.split()[1].split('/')])
+print(port_list)
